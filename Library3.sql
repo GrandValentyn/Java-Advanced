@@ -349,11 +349,11 @@ SELECT * FROM book WHERE price BETWEEN 50 and 120;
 
 SELECT * FROM book WHERE price NOT BETWEEN 200 and 600;
  
-SELECT * FROM books WHERE isbn = '0-7475-3849-2';
+SELECT * FROM book WHERE isbn = '0-7475-3849-2';
 
 DELETE FROM books where isbn = '0-7475-3849-2';
 
-SELECT * FROM books WHERE book_name = "Классическая демонология";
+SELECT * FROM book WHERE book_name = "Классическая демонология";
 
-DELETE FROM books where book_name = "Классическая демонология";
+DELETE FROM book where book_name = "Классическая демонология";
  
